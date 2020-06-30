@@ -21,6 +21,8 @@ export class AppComponent {
   initializeApp() {
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
+      // Deixa as fontes da barra de status na cor branca.
+      this.statusBar.styleLightContent();
       this.splashScreen.hide();
     });
   }

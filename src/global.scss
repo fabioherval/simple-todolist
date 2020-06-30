@@ -24,3 +24,18 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.alert-head {
+    background-color: #3dc2ff;
+    .alert-title {
+        color: #ffffff;
+    }
+}
+
+.alert-no {
+    color: #f04141 !important;
+}
+
+.alert-yes {
+    color: #2dd36f !important;
+}
